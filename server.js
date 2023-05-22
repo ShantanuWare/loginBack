@@ -13,7 +13,7 @@ app.use(morgan('tiny'));
 app.disable('x-powered-by'); // less hackers know about our stack
 
 
-const port =proceess.env.Port || 8080;
+const port =process.env.Port || 8080;
 
 /** HTTP GET Request */
 app.get('/', (req, res) => {
